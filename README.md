@@ -78,3 +78,18 @@ Before Prediction: Number of anomalies detected during model training.
 After Prediction: Number of anomalies when the model is applied to new data.
 Clusters Before and After Prediction:
 Clusters detected before and after applying the model.
+
+![Screenshot 2024-11-28 075421](https://github.com/user-attachments/assets/79196dd7-d858-4b22-a34f-9ef8d6a0db16)
+
+Observations:
+
+
+Models like MCD and Histogram-Based had the highest silhouette scores, indicating better clustering performance.
+ABOD failed to detect any anomalies after prediction, showing only 1 cluster.
+KNN and LOF models show a slight drop in anomalies after prediction.
+
+
+Conclusion
+
+
+This project provides insights into the strengths and limitations of different anomaly detection models. MCD and Histogram-Based models perform well in terms of clustering quality, as evidenced by their high silhouette scores.
